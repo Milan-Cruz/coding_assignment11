@@ -1,7 +1,3 @@
-Here’s the updated `README.md` for **Windows users** using PowerShell or Command Prompt. I’ve adjusted the syntax to be suitable for both environments.
-
-### Windows-Compatible `README.md`
-
 ```markdown
 # Coding Assignment 11
 
@@ -74,6 +70,14 @@ docker run -d -p 7775:7775 --name cruz_milan_coding_assignment11 cruz_milan_codi
 
 Once the container is running, open a browser and navigate to [http://localhost:7775](http://localhost:7775) to view the application.
 
+### Step 7: Start the Docker Container in Subsequent Runs
+
+If you stop the container and want to start it again in future runs, you can use the following command to restart the container without rebuilding it:
+
+```bash
+docker start cruz_milan_coding_assignment11
+```
+
 ## Stopping and Removing the Docker Container
 
 If you need to stop or remove the running container, use the following commands:
@@ -86,3 +90,6 @@ docker rm cruz_milan_coding_assignment11
 ## License
 
 This project is licensed under the MIT License.
+```
+Last Addition:
+- Step 7: I added a section explaining how to start the Docker container in subsequent runs using the `docker start` command. This will allow users to restart the container without having to rebuild it each time.
