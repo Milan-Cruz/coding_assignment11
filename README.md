@@ -16,12 +16,10 @@ Before cloning and running the project, make sure the following software is inst
 
 You can verify the installations with the following PowerShell or Command Prompt commands:
 
-```bash
 node --version
 yarn --version
 docker --version
 git --version
-```
 
 ## Instructions for Windows Users
 
